@@ -12,7 +12,7 @@ end
 
 def assign_rooms(array)
   #map.with_index
-  array.map.with_index{}
+  array.map.with_index{|names| "Hello, #{names}! You'll be assigned to room #{}!"}
 
 end
 
