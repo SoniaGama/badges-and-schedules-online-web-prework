@@ -10,10 +10,10 @@ def assign_rooms(array)
   array.map.with_index{|names, index| "Hello, #{names}! You'll be assigned to room #{index + 1}!"}
 end
 
-def printer
+def printer(array)
   names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  batch_badge_creator(names)
-  assign_rooms(names)
+  batch_badge_creator(array)
+  assign_rooms(array)
 end
 
  # Para hacer que se apruebe esta prueba, asegúrese de estar iterando a través de sus insignias y listas de asignaciones de habitaciones.
