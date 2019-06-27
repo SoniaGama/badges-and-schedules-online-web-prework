@@ -1,5 +1,5 @@
-require_relative '../spec_helper.rb'
-#require '../conference_badges.rb'
+require_relative './spec_helper'
+require_relative '../prime.rb'
 
 describe 'conference_badges' do
 
