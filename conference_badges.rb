@@ -12,7 +12,7 @@ end
 
 def printer(array)
   names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  batch_badge_creator(array)
+  puts batch_badge_creator(array)
   assign_rooms(array)
 end
 
