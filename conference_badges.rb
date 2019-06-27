@@ -3,17 +3,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  #a.collect
-  #array_hello = []
-  #array.each{|names| array_hello.push("Hello, my name is #{names}.")}
-  #array_hello
   array.collect{|names| "Hello, my name is #{names}."}
 end
 
 def assign_rooms(array)
-  #map.with_index   |x, i|
   array.map.with_index{|names, index| "Hello, #{names}! You'll be assigned to room #{index + 1}!"}
-
 end
 
 def printer
