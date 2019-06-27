@@ -13,7 +13,7 @@ end
 def printer(array)
   #names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   batch_badge_creator(array).each{|hello| puts hello}
-  assign_rooms(array)
+  assign_rooms(array).each{|room| puts room}
 end
 
  # Para hacer que se apruebe esta prueba, asegúrese de estar iterando a través de sus insignias y listas de asignaciones de habitaciones.
