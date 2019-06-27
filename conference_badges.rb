@@ -9,10 +9,8 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  room = [1, 2, 3, 4, 5, 6, 7] 
-  array_rooms = []
-  array.each{|names| array_rooms.push("Hello, #{names}! You'll be assigned to room #{room + 1}!")}
-  array_rooms
+  #map.with_index
+
 end
 
 def printer
