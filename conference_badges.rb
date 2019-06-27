@@ -7,7 +7,7 @@ def batch_badge_creator(array)
   #array_hello = []
   #array.each{|names| array_hello.push("Hello, my name is #{names}.")}
   #array_hello
-  array.collect
+  array.collect{|names| "Hello, my name is #{names}.}
 end
 
 def assign_rooms(array)
